@@ -33,30 +33,30 @@ export const About = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
                         <div 
                             className="relative overflow-hidden rounded-lg cursor-pointer w-full h-[200px] md:h-[300px] bg-gray-900/50 md:col-span-2"
-                            onClick={() => openModal("src/assets/picport.png")}
+                            onClick={() => openModal("/images/picport.png")}
                         >
                             <img 
-                                src="src/assets/picport.png" 
+                                src="/images/picport.png" 
                                 alt="Portrait 1" 
                                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                             />
                         </div>
                         <div 
                             className="relative overflow-hidden rounded-lg cursor-pointer w-full h-[200px] md:h-[300px] bg-gray-900/50"
-                            onClick={() => openModal("src/assets/picoprt2.jpg")}
+                            onClick={() => openModal("/images/picoprt2.jpg")}
                         >
                             <img 
-                                src="src/assets/picoprt2.jpg" 
+                                src="/images/picoprt2.jpg" 
                                 alt="Portrait 2" 
                                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                             />
                         </div>
                         <div 
                             className="relative overflow-hidden rounded-lg cursor-pointer w-full h-[200px] md:h-[300px] bg-gray-900/50"
-                            onClick={() => openVideoModal("src/assets/CFVidnobars.mp4")}
+                            onClick={() => openVideoModal("/videos/CFVidnobars.mp4")}
                         >
                             <video 
-                                src="src/assets/CFVidnobars.mp4"
+                                src="/videos/CFVidnobars.mp4"
                                 muted
                                 autoPlay
                                 loop
@@ -66,10 +66,10 @@ export const About = () => {
                         </div>
                         <div 
                             className="relative overflow-hidden rounded-lg cursor-pointer w-full h-[200px] md:h-[300px] bg-gray-900/50 md:col-span-2"
-                            onClick={() => openVideoModal("src/assets/LolVid.mp4")}
+                            onClick={() => openVideoModal("/videos/LolVid.mp4")}
                         >
                             <video 
-                                src="src/assets/LolVid.mp4"
+                                src="/videos/LolVid.mp4"
                                 muted
                                 autoPlay
                                 loop
