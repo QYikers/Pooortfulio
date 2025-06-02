@@ -62,7 +62,7 @@ export const SkillsProject = () => {
                                 and an intuitive admin dashboard for managing bookings and customer data.
                             </p>
                             <div className="flex justify-between items-center">
-                                <a href="#link" className="text-red-600 hover:text-red-500 transition-colors">View Project</a>
+                                <a href="https://betcha-booking.netlify.app/" className="text-red-600 hover:text-red-500 transition-colors">View Project</a>
                             </div>
                         </div>
                     </div>
